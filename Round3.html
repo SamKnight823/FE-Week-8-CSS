@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<div class="allstyle">
+    <body>
+        <header class="header">
+        <h2>Welcome to Dezzy's World</h2>
+        </header>
+        <section class="left-sidebar">
+            <h3>Navigation</h3>
+        <nav><nav>            
+            <a href="index.html">Home</a>
+             <a href="Round2.html">Round 2</a>
+             <a href="Round3.html" class = "active">Round 3</a>
+             <a href="myths.html" >Skip To Answer</a>
+         </nav> 
+        </nav> 
+    </section>
+<main class="main-content">
+    <h1>Round 3</h1>   
+    <p>This is your final round. You will also see the answer revealed!</p> 
+<div class="hints"> 
+    <h3 id = "center">Three Totally True Hints:</h3>
+    <ol>
+        <li><span>The photo was taken the day the newborn came home from the hospital</span></li>
+        <li><span>Shortly after this pic was taken the female slowly edged the baby off the pillow</span></li>
+        <li><span>She and the baby are still best buds two and a half years later</span></li>
+    </ol>
+</div> 
+    <div class="container">
+        <form action="myths.html">
+        <div class="row">
+          <div class="col-25">
+            <label for="fname">First Name</label>
+          </div>
+          <div class="col-75">
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="lname">Last Name</label>
+          </div>
+          <div class="col-75">
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="country">Select a rating for this game:</label>
+          </div>
+          <div class="col-75">
+            <select id="Rating" name="Select a rating for this game:">
+              <option value="Great">Great</option>
+              <option value="Good">Good</option>
+              <option value="Okay">Okay</option>
+              <option value="Abysmal">Abysmal</option>
+            </select>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="Which is it?">Which is it?</label>
+          </div>
+          <div class="col-75"  id="left">
+            <input id = "lion" type="radio" name="guess" value="Lion"><label> Lion</label><br>
+            <input id = "TrickorTreat" type="radio" name="guess" value="TrickorTreat"><label>TrickorTreat</label><br>
+            <input id = "Infant" type="radio" name="guess" value="Infant"><label> Infant</label><br>
+            <input id = "Pibull" type="radio" name="guess" value="Pibull"><label> Pit Bull</label><br>
+            <input id = "housecat" type="radio" name="guess" value="housecat"><label> None, that is clearly a housecat on a power trip</label><br>
+          </div>
+        </div>
+        <br>
+        <div class="row">
+          <input type="submit" value="Submit">
+        </div>
+        </form>
+      </div>
+</main>
+<aside class="right-sidebar">
+    <h3>Last Chance For Success:</h3> 
+    <figure>  
+    <image class = "scaled" src="Nanny.jpg" alt = "A dog and a baby">
+    <figcaption>Pit Bull Or Just Another Baby?</figcaption>
+    </figure>  
+</aside> 
+<footer class="footer">
+    You Are Getting Close....
+</footer>    
+</div> 
+</body>
+</html>
